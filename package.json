@@ -1,6 +1,6 @@
 {
   "name": "fuf-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Find Unused Files in a directory with a single command.",
   "main": "cli.js",
   "scripts": {

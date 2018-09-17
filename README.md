@@ -9,12 +9,12 @@ npm install fuf-cli --global
 # Usage
 
 ```bash
-fuf app/**/* app/images/**/*
+fuf 'app/**/*' 'app/images/**/*'
 ```
 
 This will find any file at `app/images` that's unused on `app` directory. 🙌
 
-This cli app is based on [fuf](https://github.com/rmariuzzo/fuf)
+This cli app is based on [fuf](https://github.com/rmariuzzo/fuf) – the node package.
 
 # Development
 

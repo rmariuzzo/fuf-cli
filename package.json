@@ -1,0 +1,33 @@
+{
+  "name": "fuf-cli",
+  "version": "0.0.0",
+  "description": "Find Unused Files in a directory with a single command.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmariuzzo/fuf-cli.git"
+  },
+  "keywords": [
+    "find",
+    "unused",
+    "files",
+    "cli",
+    "grep"
+  ],
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmariuzzo/fuf-cli/issues"
+  },
+  "homepage": "https://github.com/rmariuzzo/fuf-cli#readme",
+  "bin": {
+    "fuf": "./cli.js"
+  },
+  "dependencies": {
+    "fuf": "^1.0.0",
+    "meow": "^5.0.0"
+  }
+}
